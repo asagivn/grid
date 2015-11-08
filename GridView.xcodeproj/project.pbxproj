@@ -15,6 +15,8 @@
 		15823CCA1BEED42800015027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15823CC81BEED42800015027 /* LaunchScreen.storyboard */; };
 		15823CD51BEED42800015027 /* GridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823CD41BEED42800015027 /* GridViewTests.m */; };
 		15823CE01BEED42800015027 /* GridViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823CDF1BEED42800015027 /* GridViewUITests.m */; };
+		15823CF51BEED56D00015027 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823CF41BEED56D00015027 /* TableViewCell.m */; };
+		15823CF81BEEE6D500015027 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823CF71BEEE6D500015027 /* Header.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		15823CDB1BEED42800015027 /* GridViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15823CDF1BEED42800015027 /* GridViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewUITests.m; sourceTree = "<group>"; };
 		15823CE11BEED42800015027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15823CF31BEED56D00015027 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		15823CF41BEED56D00015027 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		15823CF61BEEE6D500015027 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		15823CF71BEEE6D500015027 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				15823CC81BEED42800015027 /* LaunchScreen.storyboard */,
 				15823CCB1BEED42800015027 /* Info.plist */,
 				15823CBA1BEED42800015027 /* Supporting Files */,
+				15823CF31BEED56D00015027 /* TableViewCell.h */,
+				15823CF41BEED56D00015027 /* TableViewCell.m */,
+				15823CF61BEEE6D500015027 /* Header.h */,
+				15823CF71BEEE6D500015027 /* Header.m */,
 			);
 			path = GridView;
 			sourceTree = "<group>";
@@ -272,7 +282,9 @@
 			files = (
 				15823CC21BEED42800015027 /* ViewController.m in Sources */,
 				15823CBF1BEED42800015027 /* AppDelegate.m in Sources */,
+				15823CF51BEED56D00015027 /* TableViewCell.m in Sources */,
 				15823CBC1BEED42800015027 /* main.m in Sources */,
+				15823CF81BEEE6D500015027 /* Header.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
